@@ -17,16 +17,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+        View main = findViewById(R.id.main);
+
+        int originalLeft = main.getPaddingLeft();
+        int originalTop = main.getPaddingTop();
+        int originalRight = main.getPaddingRight();
+        int originalBottom = main.getPaddingBottom();
+
+        ViewCompat.setOnApplyWindowInsetsListener(main, (v, insets) -> {
+            Insets systemBars = insets.getInsets(
+                    WindowInsetsCompat.Type.systemBars()
+            );
+
+            v.setPadding(
+                    originalLeft + systemBars.left,
+                    originalTop + systemBars.top,
+                    originalRight + systemBars.right,
+                    originalBottom + systemBars.bottom
+            );
+
             return insets;
         });
     }
-
-
-    public void disable(View v) {
-        v.setEnabled(false);
-        Log.d("success", "Button Disabled");
-    }
+    
 }

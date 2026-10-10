@@ -36,6 +36,8 @@
             android:src="@drawable/ic_settings"
             android:padding="12dp"
             android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackgroundBorderless"
+
             />
 
     </LinearLayout>
@@ -46,6 +48,7 @@
         android:text="@string/inventory"
         android:textStyle="bold"
         android:textSize="30sp"
+        android:layout_marginTop="24dp"
         />
     <TextView
         android:layout_width="match_parent"
@@ -60,20 +63,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:background="@drawable/bg_search"
+        android:paddingHorizontal="12dp"
     >
 
         <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:src="@drawable/ic_search"
+            android:layout_gravity="center_vertical"
             />
         <EditText
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_weight="1"
             android:hint="@string/search_items"
-            android:textSize="13sp"
+            android:textSize="16sp"
             android:inputType="text"
+            android:layout_marginStart="8dp"
+            android:background="@null"
             />
     </LinearLayout>
 
