@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Pyventory Mobile</string>
+    <string name="apply">Apply</string>
+    <string name="country">Country</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="pyventory">PyVentory</string>
+    <string name="inventory">Inventory</string>
+    <string name="keep_track_of_your_stock">Keep track of your stock</string>
+    <string name="search_items">Search items...</string>
 </resources>
