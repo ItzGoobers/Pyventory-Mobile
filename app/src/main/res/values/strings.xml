@@ -9,4 +9,10 @@
     <string name="inventory">Inventory</string>
     <string name="keep_track_of_your_stock">Keep track of your stock</string>
     <string name="search_items">Search items...</string>
+    <string name="scan_barcode">Scan barcode</string>
+    <string name="add_item">Add Item</string>
+    <string name="in_stock">in stock</string>
+    <string name="_12">12</string>
+    <string name="electronics">Electronics</string>
+    <string name="wireless_mouse">Wireless Mouse</string>
 </resources>

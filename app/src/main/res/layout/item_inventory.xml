@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:paddingHorizontal="10dp"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="7dp"
+        android:src="@drawable/ic_inventory_box"
+        android:background="@drawable/item_list_icon"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        >
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wireless_mouse"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/item_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/electronics"
+            android:textSize="14sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        >
+        <TextView
+            android:id="@+id/item_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_12"
+            android:textStyle="bold"
+            android:gravity="end"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in_stock"
+            android:textSize="14sp"
+            android:gravity="end"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
