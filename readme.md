@@ -1,23 +1,34 @@
-PyVentory Mobile
+# PyVentory Mobile
 
-PyVentory Mobile is the mobile version of PyVentory, a personal inventory management project originally developed as a python based desktop application.
+An Android version of **PyVentory**, a personal inventory manager originally built as a Python desktop application.
 
-The goal of this project is to bring PyVentory's core inventory management functionality to Android devices, making it easier to access and manage inventory from a smartphone.
+Manage your inventory from your phone with a simple interface for viewing, adding, and editing items.
 
-Origin
+## About
 
-PyVentory Mobile builds on the original PyVentory project and expands it into a mobile application. It is part of my ongoing work to develop PyVentory across different platforms.
+PyVentory Mobile brings the original project's core functionality to Android and is part of my ongoing work to develop PyVentory across multiple platforms.
 
-Goals
+## Goals
 
-- Bring inventory management to Android.
-- Create a simple and intuitive mobile experience.
-- Expand the functionality of the original PyVentory project.
+- Bring core inventory management features to Android.
+- Build a simple, intuitive mobile experience.
+- Extend the functionality of the original desktop application.
 
-Status
+## Screenshots
 
-PyVentory Mobile is currently in development. Features and functionality may change as the project evolves.
+| Main Page | Add Item | Edit Item |
+| :---: | :---: | :---: |
+| [View screenshot](https://ibb.co/201t2fy7) | [View screenshot](https://ibb.co/4Zt6WCX7) | [View screenshot](https://ibb.co/9k7zkhp2) |
 
-License
+#Current APK link
+(https://github.com/ItzGoobers/Pyventory-Mobile/blob/master/app/app-debug.apk)
 
-License information will be added in the future.
+## Project Status
+
+🚧 **Under development**
+
+The current interface includes a main page and basic screens for adding and editing items. Features and functionality may change as development progresses.
+
+## License
+
+A license has not yet been specified. Licensing information will be added in a future update.
