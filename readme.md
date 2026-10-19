@@ -14,7 +14,7 @@ PyVentory Mobile brings the original project's core functionality to Android and
 - Build a simple, intuitive mobile experience.
 - Extend the functionality of the original desktop application.
 
-<h2>Screenshots</h2>
+## Screenshots
 
 <table>
   <tr>
@@ -23,13 +23,17 @@ PyVentory Mobile brings the original project's core functionality to Android and
     <th>Edit Item</th>
   </tr>
   <tr>
-    <td><img src="https://ibb.co/201t2fy7" alt="Main page" width="250"></td>
-    <td><img src="https://ibb.co/4Zt6WCX7" alt="Add item screen" width="250"></td>
-    <td><img src="https://ibb.co/9k7zkhp2" alt="Edit item screen" width="250"></td>
+    <td><img src="./screenshots/main.png" alt="Main page" width="250"></td>
+    <td><img src="./screenshots/add.png" alt="Add item screen" width="250"></td>
+    <td><img src="./screenshots/edit.png" alt="Edit item screen" width="250"></td>
   </tr>
 </table>
-##APK
-https://github.com/ItzGoobers/Pyventory-Mobile/blob/master/app/app-debug.apk
+
+## Download APK
+
+[Download the Android APK](https://github.com/ItzGoobers/Pyventory-Mobile/raw/refs/heads/master/app/app-debug.apk)
+
+This is a debug build intended for testing.
 
 ## Project Status
 
