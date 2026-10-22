@@ -37,6 +37,10 @@ This is a debug build intended for testing.
 
 ## Project Status
 
+### Work in Progress
+
+The **Scan Barcode** and **Settings** buttons are currently placeholders and do not perform any actions. These features are still under development.
+
 🚧 **Under development**
 
 The current interface includes a main page and basic screens for adding and editing items. Features and functionality may change as development progresses.
